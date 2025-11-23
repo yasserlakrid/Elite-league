@@ -1,0 +1,27 @@
+body {
+  background-color: #17002b;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.nav-link {
+  color: #fff !important;
+}
+.navbar-nav .nav-item {
+  margin-right: 2rem; /* adjust value as needed */
+}
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; /* Remove margin from last item */
+}
